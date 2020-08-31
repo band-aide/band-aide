@@ -25,6 +25,8 @@
   "homepage": "https://github.com/band-aide/band-aide.io#readme",
   "dependencies": {
     "fastify": "^3.3.0",
-    "make-promises-safe": "^5.1.0"
+    "make-promises-safe": "^5.1.0",
+    "nunjucks": "^3.2.2",
+    "point-of-view": "^4.4.0"
   }
 }
