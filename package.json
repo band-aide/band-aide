@@ -1,0 +1,30 @@
+{
+  "name": "band-aide.io",
+  "version": "1.0.0",
+  "description": "Website and Tooling for Band Aide",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/band-aide/band-aide.git"
+  },
+  "keywords": [
+    "music",
+    "javascript",
+    "twitch",
+    "learn-in-public"
+  ],
+  "author": "Joe Sepi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/band-aide/band-aide.io/issues"
+  },
+  "homepage": "https://github.com/band-aide/band-aide.io#readme",
+  "dependencies": {
+    "fastify": "^3.3.0",
+    "make-promises-safe": "^5.1.0"
+  }
+}
