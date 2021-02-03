@@ -45,9 +45,12 @@ fastify.get('/artists', async (req, reply) => {
     return reply.view('/templates/artists.njk', { title: 'Featured Artists', artists })
 })
 
+const PORT = process.env.PORT || 3000
+const HOST = process.env.HOST || '0.0.0.0'
+
 const start = async () => {
   try {
-    await fastify.listen(3000, '0.0.0.0')
+    await fastify.listen(PORT, HOST)
   } catch (err) {
     fastify.log.error(err)
     process.exit(1)
